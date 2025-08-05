@@ -1,0 +1,140 @@
+{
+    "totalResults": 3,
+    "startIndex": 1,
+    "itemsPerPage": 3,
+    "schemas": [
+        "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+    ],
+    "Resources": [
+        {
+            "emails": [
+                "niveathika@wso2.com"
+            ],
+            "meta": {
+                "created": "2022-01-19T11:51:52.828553Z",
+                "location": "https://api.asgardeo.io/t/niveathika/scim2/Users/94c96aa7-1cf3-4ea2-a535-186a32e19704",
+                "lastModified": "2022-05-26T20:22:21.510663Z",
+                "resourceType": "User"
+            },
+            "roles": [
+                {
+                    "audienceValue": "6115ecfb-e477-401c-bb3e-3fa32cd628c2",
+                    "display": "Administrator",
+                    "audienceType": "organization",
+                    "value": "6ee58d1b-41d7-4a57-b1f7-5b2c0efcb86a",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/v2/Roles/6ee58d1b-41d7-4a57-b1f7-5b2c0efcb86a",
+                    "audienceDisplay": "niveathika"
+                },
+                {
+                    "audienceValue": "64319db0-27b9-4c01-ae83-b5a7de4f5c4f",
+                    "display": "Administrator",
+                    "audienceType": "application",
+                    "value": "348973c4-0a80-4236-b35a-70e274067f4d",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/v2/Roles/348973c4-0a80-4236-b35a-70e274067f4d",
+                    "audienceDisplay": "Console"
+                },
+                {
+                    "audienceValue": "6115ecfb-e477-401c-bb3e-3fa32cd628c2",
+                    "display": "everyone",
+                    "audienceType": "organization",
+                    "value": "01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/v2/Roles/01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "audienceDisplay": "niveathika"
+                }
+            ],
+            "name": {
+                "formatted": "Niveathika Rajendran",
+                "givenName": "Niveathika",
+                "familyName": "Rajendran"
+            },
+            "id": "94c96aa7-1cf3-4ea2-a535-186a32e19704",
+            "userName": "niveathika@wso2.com",
+            "urn:scim:wso2:schema": {
+                "userSourceId": "3593fad8-680b-4b82-8e51-370caa1a7199",
+                "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GgUiCjigQ9eFG1HqY9Kz0sbwu7xOQ2YR1Zrh3vg8Q=s96-c",
+                "localCredentialExists": "false",
+                "lastLogonTime": "1754405108877",
+                "signedUpRegion": "US",
+                "idpType": "Asgardeo",
+                "userAccountType": "Owner"
+            }
+        },
+        {
+            "emails": [
+                "tharik@wso2.com"
+            ],
+            "meta": {
+                "created": "2022-03-10T08:52:37.460401Z",
+                "location": "https://api.asgardeo.io/t/niveathika/scim2/Users/aa8bbe4e-8050-455b-9fe0-51953748c5db",
+                "lastModified": "2022-03-10T08:52:37.669661Z",
+                "resourceType": "User"
+            },
+            "roles": [
+                {
+                    "audienceValue": "6115ecfb-e477-401c-bb3e-3fa32cd628c2",
+                    "display": "everyone",
+                    "audienceType": "organization",
+                    "value": "01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/v2/Roles/01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "audienceDisplay": "niveathika"
+                }
+            ],
+            "name": {
+                "formatted": "Tharik Kanaka",
+                "givenName": "Tharik",
+                "familyName": "Kanaka"
+            },
+            "id": "aa8bbe4e-8050-455b-9fe0-51953748c5db",
+            "userName": "tharik@wso2.com",
+            "urn:scim:wso2:schema": {
+                "userSourceId": "3593fad8-680b-4b82-8e51-370caa1a7199",
+                "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjhfWJIdiBE1E0ZjPUjK5NfJcmI7PnGSd-vFSQV=s96-c",
+                "localCredentialExists": "false",
+                "lastLogonTime": "1753779806410",
+                "signedUpRegion": "US",
+                "idpType": "Asgardeo",
+                "userAccountType": "Collaborator"
+            }
+        },
+        {
+            "emails": [
+                "niveathika@wso2.com"
+            ],
+            "meta": {
+                "created": "2025-08-05T10:02:12.974994Z",
+                "location": "https://api.asgardeo.io/t/niveathika/scim2/Users/f12d300a-4a6e-4fae-b72d-53f9e6c0bfb9",
+                "lastModified": "2025-08-05T10:02:13.084910Z",
+                "resourceType": "User"
+            },
+            "roles": [
+                {
+                    "audienceValue": "6115ecfb-e477-401c-bb3e-3fa32cd628c2",
+                    "display": "everyone",
+                    "audienceType": "organization",
+                    "value": "01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/v2/Roles/01c7cc8b-0b53-4c8a-8c64-9b07b2eaadbb",
+                    "audienceDisplay": "niveathika"
+                }
+            ],
+            "name": {
+                "givenName": "Niveathika",
+                "familyName": "Rajendran"
+            },
+            "groups": [
+                {
+                    "display": "DEFAULT/test",
+                    "value": "6b65a0aa-a5c0-4748-ad68-3d3773ac483f",
+                    "$ref": "https://api.asgardeo.io/t/niveathika/scim2/Groups/6b65a0aa-a5c0-4748-ad68-3d3773ac483f"
+                }
+            ],
+            "id": "f12d300a-4a6e-4fae-b72d-53f9e6c0bfb9",
+            "userName": "DEFAULT/niveathika@wso2.com",
+            "urn:scim:wso2:schema": {
+                "userSource": "DEFAULT",
+                "idpType": "Local/niveathika",
+                "userAccountType": "Customer",
+                "lastPasswordUpdateTime": "1754388133050"
+            }
+        }
+    ]
+}
